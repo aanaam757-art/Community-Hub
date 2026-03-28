@@ -61,12 +61,12 @@ export default function ReferencePage() {
             <h3>Required documents</h3>
             <ul>
               <li>
-                <a href="/CommuStudent-Copyright-Checklist.pdf" target="_blank" rel="noreferrer">
+                <a href=" /sayreville-hub/CommuStudent-Copyright-Checklist.pdf" target="_blank" rel="noreferrer">
                   Student Copyright Checklist (PDF)
                 </a>
               </li>
               <li>
- <a href="/Community-Hub/Work-Log.pdf" target="_blank" rel="noreferrer"> 
+ <a href=" /sayreville-hub/Work-Log.pdf" target="_blank" rel="noreferrer"> 
                   Work Log (PDF)
                 </a>
               </li>

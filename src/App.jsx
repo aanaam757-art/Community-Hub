@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import DirectoryPage from "./pages/DirectoryPage";
 import ReferencePage from "./pages/ReferencePage";
@@ -7,7 +7,7 @@ import "./styles/styles.css";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div>
         <ResourceHubNavbar />
         <Routes>
@@ -16,6 +16,6 @@ export default function App() {
           <Route path="/references" element={<ReferencePage />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
